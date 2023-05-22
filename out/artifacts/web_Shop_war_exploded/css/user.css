@@ -1,0 +1,135 @@
+/* 导航栏 */
+.head{
+    position: relative;
+    height: 45px;
+    background-color: white;
+}
+
+.shouye_head{
+    width: 1000px;
+    margin: 0 auto;
+    height: 45px;
+    line-height: 45px;
+}
+.shouye_head a{
+    color: #4B70E2;
+    font-size: 22px;
+    font-weight: 600;
+}
+/* 个人信息 */
+.user{
+    background-color: white;
+    height: 700px;
+    width: 1100px;
+    margin: 100px auto;
+    overflow: hidden;
+    /* border: 1px solid whi */
+    border-radius: 5px;
+    box-shadow: #4B70E2 5px 5px 20px;
+
+}
+/* 左侧导航栏 */
+.user_nav{
+    background-color: #4B70E2;
+    float: left;
+    height: 700px;
+    width: 150px;
+    
+}
+.user_nav a{
+    display: block;
+    height: 50px;
+    width: 150px;
+    color: white;
+    /* margin-top: 10px; */
+    line-height: 50px;
+    text-indent: 40px;
+    /* border-bottom: 1px solid white; */
+}
+a:hover{
+    color: black;
+}
+.user_nav a:last-child{
+    position: relative;
+    top: 490px;
+}
+/* 右侧部分 */
+/* 个人信息 */
+.user_body{
+    float: left;
+    width: 950px;
+    height: 700px;
+}
+.user_head{
+    background-color: white;
+        float: right;
+        width: 200px;
+        height: 200px;
+        margin-right: 25px;
+        margin-top: 10px;
+        border: 1px solid rgb(235, 231, 231);
+        box-shadow: rgb(235, 231, 231) 0px 0px 5px;
+        border-radius: 10px;
+}
+.user_head img{
+    width: 80px;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+.user_head span{
+    position: relative;
+    top: 90px;
+    left: -15px;
+    font-size: 20px;
+}
+/* 我的钱包 */
+.mywallet{
+    position: relative;
+    top: 20px;
+    float: left;
+    /* background-color: red; */
+    height: 180px;
+    width: 700px;
+    box-shadow: rgb(235, 231, 231) 0px 0px 5px;
+}
+.wallet_head{
+    height: 40px;
+    line-height: 40px;
+    text-indent: 2em;
+    font-size:16px;
+    border-bottom: 1px solid rgb(214, 207, 207);
+}
+.myorder{
+    position: relative;
+    float: left;
+    left: 25px;
+    top: 10px;
+    width: 905px;
+    height: 460px;
+    box-shadow: rgb(235, 231, 231) 0px 0px 5px;
+}
+.order_head{
+    font-size: 18px;
+    height: 60px;
+    border-bottom: 1px solid rgb(214, 207, 207);
+    line-height: 60px;
+    text-indent: 2em;
+}
+.order_body{
+    height: 400px;
+}
+.order_body span{
+    float: left;
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin-left: 75px;
+    margin-top: 30px;
+}
+.order_body a{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+

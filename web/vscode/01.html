@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+        <a href="/index.jsp" onclick="">qqqq<img src="" alt=""></a>
+    </div>
+  </body>
+  <style>
+    
+  </style>
+  <script >
+    var user = document.querySelector('a');
+    user.addEventListener('click', function(event) {
+      //阻止a标签默认行为
+      event.preventDefault();
+      //获取a标签的href属性
+      var href = aEl.getAttribute('href');
+      //判断条件，比如判断当前用户是否登录
+      if (userName!=null) {
+        //使用window.location.href跳转
+        window.location.href = href;
+      } else {
+        window.location.href = "/login.jsp";
+      }
+    });
+  </script>
+</html>

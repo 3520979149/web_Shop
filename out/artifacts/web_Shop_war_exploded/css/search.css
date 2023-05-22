@@ -1,0 +1,45 @@
+
+/*
+首页搜素栏样式表
+*/
+
+.div_search {
+    display: flex;
+    align-items: center;
+    margin-left: 310px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input_search{
+    width: 500px;
+    min-height: 50px;
+    padding: 0 1rem;
+    color:aqua;
+    font-size: 15px;
+    border: 1px solid #5e4dcd;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+}
+
+.button_search {
+    min-height: 52px;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #5e4dcd;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button_search:hover {
+    background-color: #5e5dcd;
+}
+
+.input_search:focus,
+.input_search:focus-visible {
+    border-color: #3898ec;
+    outline: none;
+}

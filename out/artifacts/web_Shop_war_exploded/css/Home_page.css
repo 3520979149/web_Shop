@@ -1,0 +1,26 @@
+body{
+   background-color: #f9f8fd;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* 取消下划线  */
+.header_three{
+    position: relative;
+    top: -15px;
+}
+
+.head_user {
+    width: 180px;
+    height: 45px;
+    color: black;
+    font-size: 16px;
+    position: relative;
+    line-height: 45px;
+    float: right;
+    margin-top: 3px;
+}

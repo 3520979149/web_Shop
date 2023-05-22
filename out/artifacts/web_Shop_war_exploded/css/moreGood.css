@@ -1,0 +1,195 @@
+body{
+    background-color: #f9f8fd;
+}
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 45px;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+}
+
+.head_zi{
+    width: 1200px;
+    margin: 0 auto;
+    height: 45px;
+}
+.huan{
+    margin-left: 97px;
+    float: left;
+    line-height: 45px;
+
+}
+.huan a{
+    font-size: 32px;
+    color: #4B70E2;
+}
+
+
+.login{
+    display:flex;
+    float: right;
+    line-height: 45px;
+    font-size: 15px;
+}
+.login div{
+    margin-right: 10px;
+}
+.login div{
+    width: 50px;
+    text-align: center;
+}
+.login a{
+    color: #4B70E2;
+}
+.login>div a:hover{
+    color:#4B70E2;
+}
+.car{
+    position: relative;
+    display: block;
+    float: right;
+    height: 45px;
+    width: 140px;
+    background-color:  #4B70E2;
+    line-height: 45px;
+}
+.car a{
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+}
+.car img{
+    display: block;
+    float: left;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.head_user{
+    position: relative;
+}
+.head_user a{
+    margin-left: 700px;
+}
+.head_user span{
+    position: absolute;
+    margin-left: 6px;
+    bottom: 10px;
+}
+
+.search_kuang{
+    margin-top: 90px;
+    position: relative;
+    height: 40px;
+}
+.logo{
+    display: block;
+    width: 160px;
+    height: 0px;
+    position: relative;
+    left: -200px;
+    top: -10px;
+}
+.search{
+    margin: 10px auto 0;
+    width: 420px;
+    height: 45px;
+    border: 2px solid #0d6efd;
+    border-radius: 50px;
+}
+.search .text{
+    width: 420px;
+    height: 45px;
+    border: none;
+    padding: 4px 10px 0;
+    outline: none;
+    border-radius: 50px;
+}
+.search button{
+    position: relative;
+    top: -45px;
+    float: right;
+    border: none;
+    width: 60px;
+    height: 40px;
+    background-color: #4B70E2;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+.shop{
+    width: 1500px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+}
+.shop:after{
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+.phone_tu:hover{
+    box-shadow: 2px 2px 10px 10px #e9e8e8;
+}
+.shop ul{
+    display: block;
+    padding-left: 90px;
+    margin-top: 10px;
+}
+.phone_tu{
+    display: block;
+    float: left;
+    width: 220px;
+    height: 275px;
+    padding-top: 18px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 8%;
+    margin-top: 20px;
+    border: 1px solid whitesmoke;
+}
+.phone_tu .ph{
+    text-align: center;
+    padding-left: 10px;
+}
+.phone_tu .ph img{
+	width: 160px;
+    border-radius: 20%;
+}
+.phone_tu .na{
+    display: block;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    /*padding: 8px 0px;*/
+    height: 50px;
+    line-height: 50px;
+    width: 190px;
+    margin: 8px auto 0;
+    overflow: hidden;
+}
+.phone_tu p{
+    text-align: center;
+    color: #fd8f00;
+    font-size: 18px;
+    margin-top: 1px;
+    margin-left: 5px;
+}
+.bg{
+    position: absolute;
+    top: 55px;
+    left: 173px;
+    width: 1500px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    z-index: -1;
+    border-radius: 20px;
+}
